@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+background-image: linear-gradient( black,green);
+    height: 100px;
+    border-bottom: 3px solid black;
+    border-radius: 30px;
+}
+.img label{
+    font-size: 2.5rem;
+    text-shadow: 4px -5px 4px rgb(21, 36, 17);
+}
+.img label:hover{
+    border-bottom: 2px solid green;
+    border-radius: 30px;
+    font-size: 3rem;
+    transition: all 1s ease-in-out;
+}
+.navlist{
+    display:flex;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+}
+.navlist li{
+ list-style-type:none;
+ }
+.navlist li a{
+    text-decoration: none;
+    padding:7px;
+   text-shadow: 3px -5px 3px rgb(11, 25, 6);
+     
+
+}
+.navlist li a:hover{
+    border-bottom: 3px solid rgb(22, 239, 22);
+    font-size: 1.5rem;
+    border-radius: 20px;
+    transition: all 1s ease-in-out;
+    color:rgb(14, 180, 14);
+}
+body{
+background-color: rgb(36, 35, 35);
+}
+
+
+
+
+
+
+
+/* end of navbar */
+
+/* starting of home section */
+#home{
+    text-align: bottom-left;
+    min-height: 100vh;
+ max-height: fit-content;
+ padding-top:50px;
+ 
+ 
+}
+.headmain{
+   padding-left: 20px;
+    line-height: 30px;
+    border-left: 2px solid black;
+}
+
+.headmain h1{
+    background-color: green;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    color:white;
+    padding:5px;
+    text-shadow: 2px 3px 3px black;
+    
+    
+}
+.headmain span{
+    border: 2px solid green;
+     padding:5px;
+    border-radius: 20px;
+    }
